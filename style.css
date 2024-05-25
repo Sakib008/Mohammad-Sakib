@@ -1,0 +1,116 @@
+:root{
+ --primary : #874ccc;
+ --secondary-color : #F27BBD;
+}
+/* Universal Selector */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/*  Components */
+
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+a{
+    text-decoration: none;  
+}
+ul li{
+    list-style: none;
+    padding: 0 1rem;
+}
+
+
+/* Navbar and Footer */
+.navbar,
+.footer{
+    padding: 2rem 1rem;
+    background: var(--primary);
+    border-radius: 0 0 0 2rem;
+    width: 85vw;
+    margin: auto;
+}
+.logo{
+font-style: italic;
+font-size: 2rem;
+color: aliceblue;
+}
+.nav-list a{
+    color: aliceblue;
+    font-size: 1.3rem;
+}
+
+/* Hero Section */
+.hero{
+    width: 70vw;
+    margin: auto;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 2rem 1rem;
+}
+.hero-img{
+    width: 50%;
+    margin: auto;
+    display: block;
+}
+
+/* Features Section */
+ .features{
+    width: 70vw;
+    margin: auto;
+    text-align: center;
+    padding: 2rem;
+ }
+ .technologies,
+ .project,
+ .blogs{
+    padding: 3rem;
+    h1{
+        font-size: 2rem;
+        margin: 1.5rem;
+    }
+    p{
+        font-size: 1.4rem;
+        margin-bottom: 2rem;
+    }
+    a{
+        background-color:var(--primary) ;
+        border-radius: 1.3rem;
+        padding: 0.6rem 1.8rem;
+        font-size: 1.3rem;
+        color: aliceblue;
+    }
+    background:rgb(229, 231, 233);
+    border-radius: 1rem;
+ }
+ .blogs{
+    a{
+        border: 3px solid var(--primary);
+        background-color: transparent;
+        padding: 0.4rem 1.6rem;
+        color: var(--primary);
+
+ }
+}
+
+
+/* Footer Section */
+.footer{
+    border-radius: 0 2rem 0 0;
+    color: aliceblue;
+    padding: 3rem 1rem;
+   li{
+        display: inline;
+        font-size: 1.2rem;
+    }
+    a{
+        color: aliceblue;
+    }
+    text-align: center;
+}
